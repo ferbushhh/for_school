@@ -1,0 +1,165 @@
+body,html{	padding: 0;
+			margin: 0;
+			font-family: 'Noto Sans',Arial;
+
+}
+a{
+	color:  #2A3D8F;
+	font-size: 30px;
+	text-decoration: none;
+	margin: 15px;
+	padding: 15px;
+}
+a:hover{
+	color: #3893cc; 
+}
+img{
+	max-width:100%;
+	height: auto; 			
+}
+.mainmenu ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap-reverse;
+}
+.mainmenu {
+	flex-grow: 1;	
+}
+.pageheader{
+	width: 100%;
+	display: flex;
+
+}
+.pagefooter{
+	background-color: #B5D4C5;	
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap-reverse;
+
+}
+.pagefooter ul{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap-reverse;
+}
+.h{
+	font-size: 23px;
+	font-weight: 900;
+}
+.social{
+	padding: 3px;
+	margin: 3px;
+}
+.copya{
+	font-weight: 400;
+	font-size: 18px;
+}
+h2{
+	color: #2A3D8F;
+	font-size: 36px;
+}
+h3{
+	font-size: 30px;
+}
+.slogan{
+	background-image: url(innsbruck1.png);
+	background-size: cover;
+	height: 558px;
+}
+h1{
+	margin-left: 500px;
+	font-size: 60px;
+	color: white;
+	padding-top: 240px;
+
+}
+p{
+	font-size: 20px;
+}
+main{
+	margin-left: 8px;
+}
+.zxc{
+	display: flex;
+	justify-content: space-between;
+}
+ul{
+	list-style: none;
+}
+.numbers li::before{
+
+	margin: 6px;
+	content: "✓";
+}
+.marketing{
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	background-image: url(skier.png);
+	background-size: cover;
+}
+.marketing p{
+	font-size: 30px;
+	text-transform: uppercase;	
+
+}
+.marketing a{
+	font-size: 15px;
+	color: black;
+	padding: 0;
+	margin: 0;
+	align-self: flex-end;
+	text-transform: uppercase;
+	background-color: #fff;
+	opacity: 0.6;
+}
+.weather{
+	display:inline-block;
+	border: 1px #c0c0c0 solid ;
+
+}
+.weather figcaption{
+	font-size: 20px;
+	text-align: center;
+	padding: 5px;
+	background-color: rgb(124,124,124);
+	color: white;
+}
+figure {
+	margin: 0;
+}
+.gallery{
+	display: flex;
+	flex-direction: column;
+}
+.hofburg{
+	width: 1312px;
+	background-color: #B5D4C5;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-align: center;
+	
+}
+
+.g1{
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
